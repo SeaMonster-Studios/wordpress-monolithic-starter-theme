@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /assets/build/
+Disallow: /fonts/
+Sitemap: http://[siteURL]/sitemap.xml

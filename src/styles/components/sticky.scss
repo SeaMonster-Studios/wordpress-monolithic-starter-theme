@@ -1,0 +1,23 @@
+.sticky {
+	width: 100%;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	z-index: 200;
+	box-shadow: 0 9px 9px -3px rgba(0, 0, 0, 0.1);
+	background-color: inherit;
+
+	&.sticky-child-active { box-shadow: none; }
+
+	&.sticky-sticky {
+		position: -webkit-sticky !important;
+		position: -moz-sticky !important;
+		position: -ms-sticky !important;
+		position: -o-sticky !important;
+		position: sticky !important;
+	}
+
+	&.sticky-fixed { position: fixed; }
+}

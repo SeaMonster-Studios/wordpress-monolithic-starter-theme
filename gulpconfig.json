@@ -1,0 +1,30 @@
+{
+  "vhost": "http://YOUR_LOCAL_VHOST_URL",
+  "dist": "assets/build/",
+  "scripts": ["src/scripts/global.js"],
+  "scriptsToLint": [
+    "src/scripts/*.js",
+    "src/scripts/**/*.js",
+    "src/scripts/**/**/*.js",
+    "src/scripts/**/**/**/*.js"
+  ],
+  "reactApp": "react-app/",
+  "sassIndex": [
+    "src/styles/app.scss",
+    "src/styles/critical.scss",
+    "src/styles/editor-style.scss"
+  ],
+  "sassFilesToLint": [
+    "src/styles/**",
+    "!src/styles/libs/**",
+    "!src/styles/**/wp-core-styles.scss",
+    "!src/styles/resources/variables.scss"
+  ],
+  "watchedViews": [
+    "./*.php",
+    "inc/**",
+    "partials/**",
+    "page-templates/**",
+    "partials/content/**"
+  ]
+}

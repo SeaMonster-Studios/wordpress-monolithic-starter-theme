@@ -1,0 +1,109 @@
+{
+    "key": "group_5a1811a0cf5e4",
+    "title": "Home Template Content",
+    "fields": [
+        {
+            "key": "field_5a4e7d7c0d17e",
+            "label": "Marquee",
+            "name": "home_template_marquee",
+            "type": "group",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5a4e7da30d17f",
+                    "label": "Text Position",
+                    "name": "text_position",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top-left": "Top Left",
+                        "middle-left": "Middle Left",
+                        "bottom-left": "Bottom Left",
+                        "top-middle": "Top Middle",
+                        "middle-middle": "Middle Middle",
+                        "bottom-middle": "Bottom Middle",
+                        "top-right": "Top Right",
+                        "middle-right": "Middle Right",
+                        "bottom-right": "Bottom Right"
+                    },
+                    "default_value": [
+                        "top-right"
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5a4e7e2c0d180",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#ffffff"
+                }
+            ]
+        },
+        {
+            "key": "field_5a4e7e580d181",
+            "label": "Section Headers",
+            "name": "home_template_section_headers",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/home.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "featured_image"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1516854287
+}

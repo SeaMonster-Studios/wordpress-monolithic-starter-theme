@@ -1,0 +1,17 @@
+.scroll-form {
+	position: relative;
+	height: 100%;
+	transition: opacity 0.3s ease;
+	padding-bottom: $spacer-section-lg;
+
+	&.scroll-form-scroller { opacity: 0; }
+
+	@include media-breakpoint-up('lg') {
+		.scroll-form-content { margin: 0; }
+
+		&.scroll-form-scroller .scroll-form-content {
+			position: -webkit-sticky;
+			position: sticky;
+		}
+	}
+}

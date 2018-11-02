@@ -1,0 +1,3 @@
+<a target="_blank" class="facebook" href="//facebook.com/sharer.php?u=<?php echo urlencode(get_the_permalink()); ?>&title=<?php echo urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8')); ?>"><i class="fab fa-facebook"></i></span></a>
+<a target="_blank" class="twitter" href="//twitter.com/intent/tweet?text=<?php echo urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8')) . '&url=' . urlencode(get_the_permalink()); ?>"><i class="fab fa-twitter"></i></a>
+<a class="mail" href="mailto:?subject=<?php echo rawurlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8'))?>&body=<?php echo urlencode(get_the_permalink()); ?>"><i class="fas fa-envelope"></i></a>
