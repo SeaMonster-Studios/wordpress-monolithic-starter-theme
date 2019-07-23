@@ -3,7 +3,6 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 require_once('inc/admin/includes.php');
-require_once('inc/post-duplicator.php');
 require_once('inc/register-menus.php');
 require_once('inc/development.php');
 require_once('inc/utils.php');
