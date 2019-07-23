@@ -10,16 +10,12 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 get_header();
-$content = get_field('default_template_content');
-
 ?>
 
 <!-- Main -->
 <main role="main" id="main" class="main">
 	<section class="container">
-		<?php if($content): ?>
-			<?php echo $content; ?>
-		<?php endif; ?>
+		<?php the_content(); ?>
 	</section>
 </main>
 

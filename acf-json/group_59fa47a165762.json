@@ -68,6 +68,30 @@
             ]
         },
         {
+            "key": "field_5a53b8aacce47",
+            "label": "Desktop",
+            "name": "desktop",
+            "type": "image",
+            "instructions": "This will be used on all pages and posts that do not have a custom marquee selected. \r\nIf either Tablet or Mobile Marquee crops aren't selected, then this crop will be used for all display sizes.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_5a394e935773f",
             "label": "Contact Information",
             "name": "brand_contact_information",
@@ -182,6 +206,30 @@
             ]
         },
         {
+            "key": "field_5a53b97b19f7e",
+            "label": "Tablet",
+            "name": "tablet",
+            "type": "image",
+            "instructions": "Will be used on displays between 480px and 1024px wide.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_59f51e227338d",
             "label": "Social Media Links",
             "name": "brand_social_profiles",
@@ -279,11 +327,11 @@
             ]
         },
         {
-            "key": "field_5a53b92e19f7d",
-            "label": "Default Marquee",
-            "name": "brand_default_marquee",
-            "type": "group",
-            "instructions": "",
+            "key": "field_5a53b98a19f7f",
+            "label": "Mobile",
+            "name": "mobile",
+            "type": "image",
+            "instructions": "Will be used on displays below 480px wide.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -291,81 +339,16 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
-            "sub_fields": [
-                {
-                    "key": "field_5a53b8aacce47",
-                    "label": "Desktop",
-                    "name": "desktop",
-                    "type": "image",
-                    "instructions": "This will be used on all pages and posts that do not have a custom marquee selected. \r\nIf either Tablet or Mobile Marquee crops aren't selected, then this crop will be used for all display sizes.",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "url",
-                    "preview_size": "medium",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
-                },
-                {
-                    "key": "field_5a53b97b19f7e",
-                    "label": "Tablet",
-                    "name": "tablet",
-                    "type": "image",
-                    "instructions": "Will be used on displays between 480px and 1024px wide.",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "url",
-                    "preview_size": "medium",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
-                },
-                {
-                    "key": "field_5a53b98a19f7f",
-                    "label": "Mobile",
-                    "name": "mobile",
-                    "type": "image",
-                    "instructions": "Will be used on displays below 480px wide.",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "url",
-                    "preview_size": "medium",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
-                }
-            ]
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -385,5 +368,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "Used on the Brand options page.",
-    "modified": 1516855127
+    "modified": 1563904699
 }

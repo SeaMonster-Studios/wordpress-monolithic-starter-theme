@@ -3,8 +3,6 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 get_header();
-
-// $section_headers = get_field('home_template_section_headers');
 ?>
 
 

@@ -7,7 +7,6 @@
 			'theme_location' => 'header-menu',
 			'menu_class' => 'nav nav-bordered nav-stacked flex-column navbar-nav',
 			'container' => '',
-			'walker' => new bs4_walker_nav_menu_collapse()
 		));
 	?>
 

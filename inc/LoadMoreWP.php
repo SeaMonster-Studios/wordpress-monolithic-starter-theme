@@ -18,9 +18,6 @@ class LoadMoreWP {
 		$return = array(
 			"posts" => array(),
 			"hasNextPosts" => false,
-			"brand" => array(
-				"defaultMarquee" => get_field('brand_default_marquee', 'brand')
-			),
 			"testing" => array(),
 		);
 
