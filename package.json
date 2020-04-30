@@ -51,7 +51,7 @@
     "gulp-sourcemaps": "^1.12.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.4",
     "popper.js": "^1.12.9",
     "postcss": "^6.0.16",
